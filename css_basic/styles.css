@@ -2,6 +2,10 @@ body,main{
     display: flex;
 }
 
+.logo{
+    color:blueviolet
+}
+
 body{
     flex-direction: column;
 }
@@ -14,9 +18,11 @@ main{
 article{
     flex:2;
     overflow-y: auto;
+    color:navy;
 }
 
 aside{
+    background-color: rgb(234, 234, 198);
     flex:1;
     overflow-y: auto;
 }
